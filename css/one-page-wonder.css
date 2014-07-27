@@ -17,6 +17,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	
 }
 
 .headline {
@@ -33,9 +34,10 @@ body {
 }
 
 .headline h2 {
-    font-size: 27px;
-	margin:-20px 0 0;padding:0;
+    font-size: 20px;
+	margin:-30px 0 0;padding:0 0 0 70px;
 	color: #777;
+	letter-spacing: .25em;
 }
 
 .featurette-divider {
@@ -81,7 +83,7 @@ body {
     font-size: 50px;
 	color:#ff8c01;
 }
-#services .featurette-heading {
+#services .featurette-heading, #juicers .featurette-heading  {
     font-size: 50px;
 	color:#cdd752;
 }
@@ -100,7 +102,16 @@ body {
 
 
 footer {
-    margin: 50px 0;
+    margin: 50px 0 0;
+	padding: 20px 0 0;
+	background-image: url(http://www.juicebasics.com/images/footer.png);
+}
+footer p.copyright {
+	float:right;
+	padding: 20px;
+	font-size: 12px;
+	color: #777;
+	font-weight:bold;
 }
 
 @media(max-width:1200px) {
