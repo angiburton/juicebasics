@@ -6,6 +6,7 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	font-family: 'Open Sans', sans-serif;
 }
 
 .header-image {
@@ -39,7 +40,9 @@ body {
 	color: #777;
 	letter-spacing: .25em;
 }
-
+.fl-right {
+	float:right;
+}
 .featurette-divider {
 /*    margin: 80px 0;
 */}
@@ -50,7 +53,8 @@ body {
 }
 .text-muted {
 	font-family: 'Open Sans', sans-serif;
-	font-size:34px;
+	font-size:30px;
+	
 }
 .featurette-image.pull-left {
     margin-right: 40px;
@@ -64,6 +68,26 @@ body {
 	font-family: 'Bilbo Swash Caps', cursive;
     font-size: 60px;
 	color:#ff8c01;
+}
+.btn-green {
+	color:#777;
+	background-color: #cdd752;
+	border-color: #bcc82e;
+}
+.btn-green:hover {
+	background-color: #bcc82e;
+}
+.btn-orange {
+	background-color: #ff8c01;
+	border-color: #ff8c01;
+	color:#ffffff;
+	
+}
+.btn-red {
+	background-color: #fc6246;
+	border-color: #fc6246;
+	color:#ffffff;
+	
 }
 .navbar-inverse {
 /*	background-image:url(http://www.juicebasics.com/images/header3.png);
@@ -79,13 +103,18 @@ body {
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	border-color:#777;
 }
+#services .featurette-heading, #juicers .featurette-heading, #contact .featurette-heading, #diets .featurette-heading, #no-juicer .featurette-heading, #about .featurette-heading {
+    font-size: 50px;
+	color:#fc6246;
+}
+/*#services .featurette-heading {
+    font-size: 50px;
+	color:#cdd752;
+}
+
 #about .featurette-heading {
     font-size: 50px;
 	color:#ff8c01;
-}
-#services .featurette-heading, #juicers .featurette-heading  {
-    font-size: 50px;
-	color:#cdd752;
 }
 #contact .featurette-heading {
     font-size: 50px;
@@ -98,7 +127,7 @@ body {
 #no-juicer .featurette-heading {
     font-size: 50px;
 	color:#fc6246;
-}
+}*/
 
 
 footer {
@@ -120,7 +149,7 @@ footer p.copyright {
     }
 
     .headline h2 {
-        font-size: 63px;
+        font-size: 20px;
     }
 
     .featurette-divider {
@@ -146,7 +175,7 @@ footer p.copyright {
     }
 
     .headline h2 {
-        font-size: 50px;
+        font-size: 20px;
     }
 
     .featurette-divider {
@@ -174,7 +203,13 @@ footer p.copyright {
     .container {
         margin: 0 15px;
     }
-
+    .headline h1 {
+        font-size: 70px;
+    }
+    .headline h2 {
+        font-size: 20px;
+		margin:0;
+    }
     .featurette-divider {
         margin: 40px 0;
     }
@@ -190,7 +225,9 @@ footer p.copyright {
     }
 
     .headline h2 {
-        font-size: 22px;
+        font-size: 15px;
+		margin:-20px 0 0 0;
+		padding:0 0 0 20px;
     }
 
     .featurette-divider {
@@ -208,7 +245,9 @@ footer p.copyright {
     }
 
     .headline h2 {
-        font-size: 20px;
+        font-size: 12px;
+		margin:-10px 0 0 0;
+		padding:0 0 0 20px;
     }
 }
 
